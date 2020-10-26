@@ -1,0 +1,36 @@
+.seperarx{
+    float:left;
+    padding:30px;
+}
+.espaciox{                
+    margin-top: 30px;
+}
+.card{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.60), 0 0px 10px 0 rgba(0, 0, 0, 0.40);
+}
+
+.head{
+
+    background-color: #E1DEDE; 
+}
+.title{                   
+    text-align: left;
+    font-size:11px;
+    color:#747474;                  
+}
+.content-info{
+    text-align: center;
+    padding:15px;
+    padding-top:10px;
+    font-family: arial;
+    font-weight: 800;
+
+} 
+.content-info .tituloPublicacion{
+    text-align: left;
+    font-weight: normal;
+    font-size:10px;
+    color:#848484;
+    font-family: verdana;
+
+}

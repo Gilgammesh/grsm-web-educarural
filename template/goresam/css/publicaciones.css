@@ -1,0 +1,40 @@
+
+div.icono-publicidad{
+    float:none;
+    padding:10px;
+    background-color:#CC3467;
+    color:white;              
+}
+div.espacio-top{
+    margin-top: 20px;
+}   
+div.filtro{
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: right;
+}
+
+div.filtro label{
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+}
+div.filtro label input{
+    display: inline-block;
+    width: auto;
+}  
+a.link-hover:hover{                 
+    color: #6FAD38;
+}
+.content-nota{   
+    border: 1px solid #f9dd34;    
+    background: #ffef8f url(resources/images/ui-bg_highlight-soft_25_ffef8f_1x100.html) 50% top repeat-x;    
+    color: #363636;   
+    margin: 5px; 
+    padding: 10px; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -ms-border-radius: 5px;  
+    -o-border-radius: 5px;  
+    border-radius: 5px;
+}

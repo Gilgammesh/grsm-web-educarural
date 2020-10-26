@@ -1,0 +1,51 @@
+.glyphicon-lg{font-size:3em}
+.blockquote-box{border-right:5px solid #E6E6E6;margin-bottom:30px;}
+.blockquote-box .square{width:100px;min-height:50px;margin-right:22px;text-align:center!important;background-color:#006654;padding:20px 0}
+.blockquote-box.blockquote-primary{border-color:#006654}
+.blockquote-box.blockquote-primary .square{background-color:#006654;color:#FFF}            
+p{
+    padding-right: 1px;  
+}
+h4{
+    font-size: 18px;
+}
+.seperarx{
+    float:left;
+    padding:30px;
+
+}
+.titulox{              
+    padding-left:15px;
+    padding-top:10px; 
+    padding-bottom:5px; 
+    font-weight: bold;
+}
+.titulox i{
+    padding-right: 5px;
+    color:#006654;
+}
+.subtitulox{
+    padding:2px;
+    padding-left:33px;
+    font-size:12px;
+}
+.subtitulox i{
+    padding-right: 5px;
+    color:#006654;
+}
+
+.subtitulo2{
+    padding:2px;
+    padding-left:30px;
+    font-size:12px;
+}
+
+.subtitulo2 a{
+    color:#63B93A;
+    cursor:pointer;
+}
+.h3x{
+    padding:15px;
+    padding-bottom:0px;
+    font-size:18px;
+}

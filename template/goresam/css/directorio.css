@@ -1,0 +1,78 @@
+.content-nota-d{   
+    border: 1px solid #f9dd34;    
+    background: #ffef8f url(resources/images/ui-bg_highlight-soft_25_ffef8f_1x100.html) 50% top repeat-x;    
+    color: #363636;   
+    margin: 5px; 
+    padding: 10px; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -ms-border-radius: 5px;  
+    -o-border-radius: 5px;  
+    border-radius: 5px;
+}
+
+/*....target.........................................*/
+.divTargeta{
+    padding:0px;
+    border:1px solid #DDDDDD;
+}
+
+.divFoto{
+    float:left;
+    margin:8px;
+    width:110px;
+    height:120px;
+    background-color: #E2DEDD;
+}
+
+.divFoto img {
+    width:100%;
+    height:100%
+}
+.divTitulo{
+    padding:8px;               
+}
+
+.divNombre{ 
+    padding: 4px; 
+    padding-top: 6px;
+    padding-bottom: 0px;
+    background-color: #EFEFEF;
+    font-weight: bold;
+}
+.divCargo{
+    background-color: #EFEFEF;
+    font-size: 11px;
+    padding: 4px;                
+}
+.ulinfo{
+    font-size:12px;
+    list-style:none;
+    margin-top:5px;
+}
+ulinfo li{
+    border:1px solid red;
+}
+.divClear{
+    clear:both;
+}
+.ulinfo li{
+    margin-left:-30px;
+}
+
+@media (max-width: 450px) { 
+    .media-left {
+        float:left;
+    }
+    .divFoto{
+        float:none !important;
+        margin: 0px auto;
+        margin-top: 6px;
+
+    }
+}
+@media (max-width: 350px) { 
+    .textEmail{
+        font-size: 10px;
+    }
+}

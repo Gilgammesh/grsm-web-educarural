@@ -1,0 +1,47 @@
+a.down {
+    color: #FFB16D;
+    text-decoration: none;
+}
+a.down:hover {
+    text-decoration: none;
+    color: #FFB16D;
+}
+.download_zone {
+    margin-top:17px;
+    background-color: ff0000;
+    border-top: solid 1px #FFB16D;
+    border-top-left-radius: 25px;               
+}
+.fa {
+    color: #ffffff;
+}
+.rond {
+    border-radius: 70px;
+    background: #FFB16D;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    padding-top: 5px;
+
+}
+.title_download {                
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
+.seperarx{       
+    margin-top:20px !important;
+}
+.titulo{
+    padding:20px;
+    padding-bottom:0px; 
+    font-size: 18px;
+}
+.subtitulo{
+    font-size: 11px;
+    padding:20px;
+    padding-top:5px; 
+    padding-bottom:10px; 
+    color:#9A9A9A;
+}

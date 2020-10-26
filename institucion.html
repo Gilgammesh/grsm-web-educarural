@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Institucion - GRSM</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="template/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="template/bootstrap/css/goresam.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="template/bootstrap/css/stylefooter.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="template/plugins/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="template/goresam/css/institucion.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <style>
+      /*idioma.................*/
+      #grupoIdioma {
+        margin-left: 8px;
+      }
+      .goog-te-gadget-simple {
+        background-color: #777777;
+        border: 0px;
+      }
+      .goog-te-gadget-simple span span {
+        color: white;
+        color: rgb(255, 255, 255) !important;
+      }
+      .goog-te-gadget-simple a {
+        text-decoration: none !important;
+      }
+      body {
+        top: 0 !important;
+      }
+      .goog-te-banner-frame {
+        display: none;
+      }
+      .letrablanca {
+        text-decoration: none !important;
+      }
+      .letrablanca:hover {
+        color: #d9d9d9;
+      }
+
+      /*...minivideo....*/
+      .minivideo {
+        padding: 3px;
+        cursor: pointer;
+        text-align: center;
+      }
+      .minivideo i {
+        display: initial;
+        color: #cccccc;
+      }
+      ul.navAditional li {
+        margin-top: 20px;
+      }
+      ul.navAditional li a {
+        display: initial;
+        padding-right: 0px;
+      }
+    </style>
+    <div class="goresam-top-bar" id="goresam-top">
+      <div class="container">
+        <div class="subheader">
+          <div id="grupoIdioma" class="pull-right">
+            <div id="google_translate_element"></div>
+            <script type="text/javascript">
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                  {
+                    pageLanguage: "es",
+                    includedLanguages: "en,es",
+                    layout:
+                      google.translate.TranslateElement.InlineLayout.SIMPLE,
+                  },
+                  "google_translate_element"
+                );
+
+                var pop = 0;
+                $(".goog-te-gadget-simple img").each(function () {
+                  if (pop == 0) {
+                    $(this).replaceWith(
+                      "<i class='fa fa-globe' style='margin-left:6px;margin-top:0px;color:white;'></i>"
+                    );
+                    pop++;
+                  }
+                });
+              }
+            </script>
+            <script
+              src="template/dist/js/googleTranslate.js"
+              type="text/javascript"
+            ></script>
+          </div>
+          <div class="md lg pull-right">
+            <span class="letrablanca hidden-md hidden-sm hidden-xs" href="#">
+              "Año de la Universalización de la Salud"
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- finaliza la cabecera de menu estatica -->
+    <!-- Inicia la cabecera de menu dinamico adaptable -->
+    <header id="cabecera">
+      <div class="goresam-top-menu">
+        <div class="container container-header">
+          <!-- Static navbar -->
+          <div class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="index.html"
+                  ><img
+                    src="resources/images/logo-goresam3.png"
+                    width="220px"
+                    alt=""
+                    title=""
+                /></a>
+              </div>
+              <div class="navbar-collapse collapse" id="goresam-nav-bar">
+                <ul
+                  class="nav navbar-nav navbar-right navAditional"
+                  style="margin-top: 18px"
+                >
+                  <li>
+                    <a
+                      class="hov external-link"
+                      rel="nofollow"
+                      href="index.html"
+                      ><i class="fa fa-home"></i> Inicio</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="hov external-link"
+                      rel="nofollow"
+                      href="institucion.html"
+                      ><i class="fa fa-building"></i> La Institucion</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="hov external-link"
+                      rel="nofollow"
+                      href="directorio.html"
+                      ><i class="fa fa-list"> </i> Directorio
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="hov external-link"
+                      rel="nofollow"
+                      href="contacto.html"
+                      ><i class="fa fa-user"></i> Contacto</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <!--/.nav-collapse -->
+            </div>
+            <!--/.container-fluid -->
+          </div>
+          <!--/.navbar -->
+        </div>
+        <!-- /container -->
+      </div>
+    </header>
+
+    <!--////////////////BANNER///////////////////-->
+    <div class="container">
+      <div class="hidden-xs hidden-sm col-md-12 col-lg-12">
+        <div id="CarouselHead" class="carousel slide slider">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li
+              data-target="#CarouselHead"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#CarouselHead" data-slide-to="1"></li>
+            <li data-target="#CarouselHead" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="resources/images/portada1.jpg" width="1500" />
+            </div>
+            <div class="item">
+              <img src="resources/images/portada2.jpg" width="1500" />
+            </div>
+            <div class="item">
+              <img src="resources/images/portada3.jpg" width="1500" />
+            </div>
+          </div>
+          <!-- Controls -->
+          <a
+            class="left carousel-control"
+            href="#CarouselHead"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="icon-prev"></span>
+          </a>
+          <a
+            class="right carousel-control"
+            href="#CarouselHead"
+            role="button"
+            data-slide="next"
+          >
+            <span class="icon-next"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function goPage() {
+        $.ajax({
+          dataType: "json",
+          url: "./Logg?pagina=PORTAL DE TRANSPARENCIA",
+        });
+        /*........................................................................*/
+        $(".potalTrasnparencia")
+          .attr(
+            "href",
+            "http://www.transparencia.gob.pe/enlaces/pte_transparencia_enlaces.aspx?id_entidad=10166&amp;id_tema=1&amp;ver=D#.WV6q5BV97IV"
+          )
+          .attr("target", "_blank");
+      }
+    </script>
+
+    <!--////////////////FIN BANNER///////////////////-->
+
+    <div class="container blank">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="text-center">Gobierno Regional San Martin</h1>
+          <p class="text-center"><i class="fa fa-book"></i> La institución</p>
+        </div>
+      </div>
+      <p></p>
+      <p></p>
+      <section class="content-header">
+        <ol class="breadcrumb">
+          <li>
+            <a href="index.html"><i class="fa fa-home"></i> Inicio</a>
+          </li>
+          <li class="active"><i class="fa fa-university"></i> Institucional</li>
+        </ol>
+      </section>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="box-body">
+            <div class="box-group" id="accordion">
+              <div class="panel box box-primary">
+                <div class="box-header with-border">
+                  <h3 class="box-title">
+                    <span class="cool">
+                      <i class="fa fa-list"></i
+                      ><b> Información institucional</b>
+                    </span>
+                  </h3>
+                  <div class="col-lg-12 content-nota-i">
+                    <div>
+                      <div class="col-lg-12">
+                        <b><i class="fa fa-info-circle"></i> Nota:</b> En este
+                        apartado, usted podrá encontrar la información
+                        institucional del Gobierno Regional de San Martín.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="page-header div-bottom-i">
+                        <h1>Gobierno Regional de San Martin</h1>
+                        <p id="pRuc" class="px">RUC : 20531375808</p>
+                        <div class="row" style="height: 20px"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="collapseOne" class="row">
+                    <div class="col-md-12">
+                      <div class="boxx">
+                        <div class="box-icon">
+                          <span class="fa fa-3x fa-maxcdn"></span>
+                        </div>
+                        <div class="info">
+                          <h4 class="text-center">Misión</h4>
+                          <p id="pMision">
+                            Promover el desarrollo integral y sostenible de la
+                            región de manera inclusiva, competitiva y solidaria;
+                            en el marco de la modernización, con enfoque
+                            territorial y gestión de cuencas. <br /><br />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12">
+                      <div class="boxx">
+                        <div class="box-icon">
+                          <span class="fa fa-3x fa-vimeo"></span>
+                        </div>
+                        <div class="info">
+                          <h4 class="text-center">Visión</h4>
+                          <p id="pVision">
+                            Al 2021 somos modelo de región en bienestar social,
+                            competitividad y valoración de nuestros recursos
+                            naturales y diversidad.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="boxx">
+                        <div class="box-icon">
+                          <span class="fa fa-flag fa-3x"></span>
+                        </div>
+                        <div class="info">
+                          <h4 class="text-center">Reseña Histórica</h4>
+                          <p>
+                            Reseña histórica del Gobierno Regional de San Martín
+                          </p>
+                          <a
+                            class="btn btn-success"
+                            href="resources/documents/reseña_historica.pdf"
+                            target="_blank"
+                            >Ver reseña</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="boxx">
+                        <div class="box-icon">
+                          <span class="fa fa-3x fa-opera"></span>
+                        </div>
+                        <div class="info">
+                          <h4 class="text-center">Organigrama</h4>
+                          <p id="pOrganigrama"></p>
+                          <a
+                            class="btn btn-success"
+                            href="resources/documents/organigrama.pdf"
+                            target="_blank"
+                            >Ver organigrama</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="boxx">
+                        <div class="box-icon">
+                          <span class="fa fa-3x fa-gavel"></span>
+                        </div>
+                        <div class="info">
+                          <h4 class="text-center">Marco legal</h4>
+                          <div id="divData">
+                            <p>
+                              <a
+                                href="resources/documents/68507-Ley_27680.pdf"
+                                class="link-efect"
+                                target="_blank"
+                                >Ley N° 27680 - Ley de Reforma Constitucional
+                                del Capítulo XIV del Título IV sobre
+                                Descentralización
+                              </a>
+                            </p>
+                            <p>
+                              <a
+                                href="resources/documents/18893-27783.pdf"
+                                class="link-efect"
+                                target="_blank"
+                                >Ley N° 27783 - Ley de Bases de
+                                Descentralización
+                              </a>
+                            </p>
+                            <p>
+                              <a
+                                href="resources/documents/32024-2014-ley-organica-de-gobiernos-regionales_27867.pdf"
+                                class="link-efect"
+                                target="_blank"
+                                >Ley N° 27867 - Ley Orgánica de Gobiernos
+                                Regionales
+                              </a>
+                            </p>
+                            <p>
+                              <a
+                                href="resources/documents/55415-2014-ley-organica-de-gobiernos-regionales_27867.pdf"
+                                class="link-efect"
+                                target="_blank"
+                                >Ley N° 27902 - Ley que Modifica la Ley Orgánica
+                                de Gobiernos Regionales
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="page-header">
+                        <div class="box-icon2">
+                          <span class="fa fa-1x fa-info"></span>
+                        </div>
+                        <h1>Para más información</h1>
+                      </div>
+                      <div class="comments-list">
+                        <div class="media">
+                          <div class="media-body">
+                            <p id="pInfo" class="px">
+                              Ver
+                              <a
+                                style="color: #83c14d"
+                                href="resources/documents/plan2019.pdf"
+                                target="_blank"
+                                >Plan_Estratégico_Institucional_2018-2020</a
+                              >
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="prueba" class="div-seperar-i"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="section section naranja">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 letrablanca">
+            <h1>GOBIERNO REGIONAL SAN MARTIN</h1>
+
+            <div class="col-md-2">
+              <img
+                src="template/dist/img/escudo.png"
+                class="hidden-sm hidden-xs"
+                height="120%"
+                width="130%"
+              />
+            </div>
+
+            <div class="col-md-10">
+              <div id="reponsableAIP" style="">
+                <div class="row">
+                  Responsable del Acceso a la Información Pública
+                </div>
+                <div class="row">
+                  Nombre:
+                  <b id="nombreResponsable">ABOG. GERMAN BEDOYA GOMEZ</b>
+                </div>
+                <div class="row">
+                  <span
+                    id="resolucion"
+                    style="
+                      text-decoration: none;
+                      cursor: default;
+                      color: #ffffff;
+                    "
+                  >
+                    <a
+                      href="./resources/documents/RER 224-2020-GRSM-GR.pdf"
+                      target="_BLANK"
+                      style="color: white"
+                    >
+                      RER N° 224-2020-GRSM/GR
+                    </a>
+                  </span>
+                </div>
+              </div>
+              <div id="reponsableAPI" style="">
+                <div class="row">
+                  Responsable de Actualización del Portal Institucional
+                </div>
+                <div class="row">
+                  Nombre:
+                  <b id="nombreResponsable2">SUZIE YAMILET EPIFANÍA MEJÍA</b>
+                </div>
+                <div class="row">
+                  <span
+                    id="resolucion2"
+                    style="
+                      text-decoration: none;
+                      cursor: default;
+                      color: #ffffff;
+                    "
+                  >
+                    <a
+                      href="./resources/documents/RER 275-2020-GRSM-GR.pdf"
+                      target="_BLANK"
+                      style="color: white"
+                    >
+                      RER N° 275-2020-GRSM/GR
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 letrablanca">
+            <h1>CONTACTOS</h1>
+            <div class="col-sm-12 letrablanca">
+              <div class="row"><b>Horario de Atención</b></div>
+              <div class="row">Lunes a Viernes de 7:30 am. a 5pm</div>
+              <div class="row">
+                <div class="fa fa-phone">
+                  Teléfonos: <b>(042) 563990 / (042) 564100</b>
+                </div>
+              </div>
+              <div class="row">
+                <div class="fa fa-envelope-o">
+                  webmaster@regionsanmartin.gob.pe
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footmarg"></div>
+      <div class="container-fluid footgris">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center footwhite">
+              <div>
+                Gobierno Regional San Martín - Calle Aeropuerto Nro. 150 Barrio
+                Lluyllucucha - Moyobamba | Dpto. de San Martin - Perú
+              </div>
+              <div>RUC: 20531375808 | © 2004-2020</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="template/bootstrap/js/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="template/bootstrap/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="template/bootstrap/js/jquery.bootstrap.newsbox.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="template/bootstrap/js/jquery-ui.min.js"
+      type="text/javascript"
+    ></script>
+  </body>
+
+  <!-- Mirrored from www.regionsanmartin.gob.pe/DatosGenerales?url=institucion by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Oct 2020 17:54:33 GMT -->
+</html>

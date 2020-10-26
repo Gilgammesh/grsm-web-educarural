@@ -1,0 +1,122 @@
+div#viewMultimedia{   
+}
+
+div#viewMultimedia div#modal-dialog{}
+
+div#viewMultimedia div#modal-dialog div.modal-content{}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-headerx{
+    padding:30px;
+    padding-top:5px;
+    padding-right:10px;
+    border-bottom: 1px solid #CCCCCC !important;
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-headerx a.closeModal{
+    float:right;
+    padding:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    font-size:20px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-headerx a.closeModal:hover{
+    text-decoration: none;
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body{
+    padding-top:0px !important;  
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body div.contentTitle{
+    padding-top:5px;   
+    padding-bottom: 5px;  
+    padding-left: 0px;   
+    padding-right: 0px;
+    font-size:16px;    
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body div.contentButtonsBackNext{
+    padding:4px;
+    background-color: black;
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body div.contentButtonsBackNext a.goLeft{
+    float:right;  
+    padding:4px;
+    background-color: #5CB85C;
+    border:1px solid #B0B0B0;
+    text-align: center;
+    color:white;
+    font-size: 12px;
+    font-family: verdana;
+    text-decoration: none;
+    border-radius:4px 0px 0px 4px;    
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body div.contentButtonsBackNext a.goLeftNo{
+    float:right;  
+    padding:4px;
+    background-color: #878787;
+    border:1px solid #B0B0B0;
+    text-align: center;
+    color:white;
+    font-size: 12px;
+    font-family: verdana;
+    text-decoration: none;
+    border-radius:4px 0px 0px 4px;
+    cursor: default;
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body div.contentButtonsBackNext a.goRight{
+    float:right;  
+    margin-left: 2px;
+    padding:4px;
+    background-color: #5CB85C;
+    border:1px solid #B0B0B0;
+    text-align: center;
+    color:white;
+    font-size: 12px;
+    font-family: verdana;
+    text-decoration: none;
+    border-radius:0px 4px 4px 0px;
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body div.contentButtonsBackNext a.goRightNo{
+    float:right;  
+    margin-left: 2px;
+    padding:4px;
+    background-color: #878787;
+    border:1px solid #B0B0B0;
+    text-align: center;
+    color:white;
+    font-size: 12px;
+    font-family: verdana;
+    text-decoration: none;
+    border-radius:0px 4px 4px 0px;
+    cursor: default;
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body div.contentButtonsBackNext a i{
+    margin-right:3px;
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body div.contentButtonsBackNext a i{
+    margin-left:3px;
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body div.contentButtonsBackNext div.clear{
+    clear:both;
+}
+
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body div.contentMultimedia{
+    background-color:black;
+}
+
+/*si es video*/
+div#viewMultimedia div#modal-dialog div.modal-content div.modal-body div.contentMultimedia iframe{}
+
+
+
